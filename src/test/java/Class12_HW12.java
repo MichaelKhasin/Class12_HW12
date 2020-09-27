@@ -59,6 +59,7 @@ public class Class12_HW12 {
         driver.switchTo().frame("my-frame");
         System.out.println(driver.findElement(By.id("iframe_container")).getText());
 
+        // Exercise 5:
         try {
             File logFile=new File("C:\\Users\\Misha\\Downloads\\HW12.log");
             BufferedWriter writer = new BufferedWriter(new FileWriter(logFile, true));
