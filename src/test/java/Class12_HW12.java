@@ -132,7 +132,15 @@ public class Class12_HW12 {
         driver.get(GetXmlData.getData("Url"));
     }
 
-
+    // 4. Create a TestNG test with the following:
+    // Setup Extent Reports.
+    // Log every step in your program into the report (@BeforeClass,
+    //@Test, etc.).
+    // Go to Google Translate.
+    // Take a screen shot and it to report.
+    // Press on translation field (the one you enter the text to be
+    //translated).
+    // Add your company name to system info.
     @Test
     public void test04_extentReport() {
         pageOpened = false;
@@ -174,6 +182,11 @@ public class Class12_HW12 {
         }
     }
 
+    // 6.
+    //• Open Google in first tab
+    //• Open YouTube on the second tab
+    //• Open Google translate in the third tab.
+    //• From translate go to Google and from Google go to YouTube.
     @Test
     public void test06_tabsFocus() throws Exception {
         openNewTab(driver, "https://www.google.com", 1);
