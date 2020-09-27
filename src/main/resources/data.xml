@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <browserType>Chrome</browserType>
+    <Url>https://buyme.co.il</Url>
+    <UrlGoogleTranslate>https://translate.google.com/</UrlGoogleTranslate>
+    <UrlGoogle>https://www.google.com/</UrlGoogle>
+    <UrlYoutube>https://www.youtube.com/</UrlYoutube>
+</config>
